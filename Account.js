@@ -11,7 +11,6 @@ function updatecsv()
         console.log(csv);
     };
     converter.json2csv(users, json2csvCallback);
-
 }
 function readCSVFile(file) {
     let reader = new FileReader();
