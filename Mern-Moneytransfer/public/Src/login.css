@@ -1,0 +1,64 @@
+body {
+	font-family: Arial, sans-serif;
+    background-image: url("../../img/min03.jpg"),url("../../img/min03.png"),url("../../img/min04.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+	width: 30%;
+	margin: auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(184, 5, 5, 0.2);
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #6acb6d;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.links {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.links a {
+	margin-right: 20px;
+	text-decoration: none;
+	color: #4CAF50;
+	font-weight: bold;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
