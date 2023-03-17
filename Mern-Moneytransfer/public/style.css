@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("min04.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: lightsteelblue;
 }
 
 h1 {
