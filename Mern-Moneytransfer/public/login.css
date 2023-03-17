@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
-    background-image: url("min03.jpg");
+    background-image: url("min03.jpg"),url("min04.jpeg"),url("min03.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
