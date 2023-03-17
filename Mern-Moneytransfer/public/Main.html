@@ -6,7 +6,7 @@
     <meta name="veiwport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>LootManiac</title>
-    <script></script>
+    <script src="script.js"></script>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -51,8 +51,12 @@
 	</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Money Transfer Program</h1>
+    <h1>LootManiac Money App</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="opentab(event, 'Send')">Send</button>
+        <button class="tablinks" onclick="opentab(event, 'Request')">Request</button>    
+    </div>
+    <div class="tabcontent" id="Send">
         <form>
             <label for="from_account">From Account</label>
             <input type="text" id="from_account" name="from_account" placeholder="Enter From Account Number">
@@ -62,6 +66,20 @@
 
             <label for="amount">Amount</label>
             <input type="text" id="amount" name="amount" placeholder="Enter Amount to Transfer">
+
+            <input type="submit" value="Transfer">
+        </form>
+    </div>
+    <div class="tabcontent" id="Request">
+        <form>
+            <label for="from_account">From Account</label>
+            <input type="text" id="from_account" name="from_account" placeholder="Enter From Account Number">
+
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" name="amount" placeholder="Enter Amount to Transfer">
+
+            <label for="reason">Reason</label>
+            <input type="textspace" id="reason" name="reason" placeholder="Enter reason here">
 
             <input type="submit" value="Transfer">
         </form>
