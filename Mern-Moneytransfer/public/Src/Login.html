@@ -3,6 +3,7 @@
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="Login.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -11,8 +12,11 @@
 			<label for="user">Username</label>
 			<input type="text" id="user" name="user" placeholder="Enter your username">
 
-			<label for="pass">Password</label>
-			<input type="password" id="pass" name="pass" placeholder="Enter your password">
+			<label for="password">Password:</label>
+			<div class="password-field">
+				<input type="password" name="password" id="password" required>
+				<button type="button" class="toggle-password" onclick="togglePassword()">Show</button>
+			</div>
 
 			<input type="submit" value="Login">
 		</form>
