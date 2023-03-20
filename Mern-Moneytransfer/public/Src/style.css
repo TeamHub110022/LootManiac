@@ -83,13 +83,13 @@ input[type="submit"]:hover {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: lightsteelblue;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -104,7 +104,7 @@ input[type="submit"]:hover {
   font-size: 16px;
   border: none;
   outline: none;
-  color: #f2f2f2;
+  color: #333;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -113,7 +113,7 @@ input[type="submit"]:hover {
 
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #ddd;
-  color: black;
+  color: #333;
 }
 
 .dropdown-content {
