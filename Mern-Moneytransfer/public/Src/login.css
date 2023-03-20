@@ -68,12 +68,13 @@ input[type="submit"]:hover {
   
   .toggle-password {
 	position: absolute;
-	top: 50%;
+	top: 50;
 	right: 0;
 	transform: translateY(-50%);
 	border: none;
 	background-color: transparent;
 	cursor: pointer;
+
   }
   footer {
 	background-color: #333;
