@@ -1,17 +1,21 @@
 body {
 	font-family: Arial, sans-serif;
-    background-image: url("../../img/min03.jpg"),url("../../img/min03.png"),url("../../img/min04.jpeg");
-    background-repeat: no-repeat;
+    background-image: url("../../img/min03.jpg");
+    background-repeat: repeat;
     background-size: cover;
+	min-height: auto;
+	max-height: auto;
 }
 
 .container {
-	width: 30%;
+	width: 40%;
 	margin: auto;
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(184, 5, 5, 0.2);
+	min-height: 300px;
+	max-height: 350px;
 }
 
 h1 {
@@ -84,4 +88,37 @@ input[type="submit"]:hover {
 	position: absolute;
 	bottom: 0;
   }
-	
+  #reset {
+	position: absolute;
+	left: 33%;
+  }
+  #signup{
+	position: absolute;
+	right: 33%;
+  }
+  .topnav {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+
+  .topnav a:hover, .dropdown:hover .dropbtn {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	z-index: 1
+  }
