@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LootManiac</title>
+    <script src="script.js"></script>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: lightskyblue;
+		}
+		.container {
+			width: 50%;
+			margin: auto;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		h1 {
+			text-align: center;
+			margin-top: 0;
+		}
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		input[type="text"], input[type="password"], select {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<nav class="topnav">
+		<a href="#home">Home</a>
+		<div class="dropdown">
+		<button class="dropbtn">Products</button>
+		</div>
+		</div>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+	</nav>
+	</br>
+    <h1>LootManiac Money App</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="opentab(event, 'Send')">Send</button>
+        <button class="tablinks" onclick="opentab(event, 'Request')">Request</button>    
+    </div>
+    <div class="tabcontent" id="Send">
+        <form>
+            <label for="from_account">From Account</label>
+            <input type="text" id="from_account" name="from_account" placeholder="Enter From Account Number">
+
+            <label for="to_account">To Account</label>
+            <input type="text" id="to_account" name="to_account" placeholder="Enter To Account Number">
+
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" name="amount" placeholder="Enter Amount to Transfer">
+
+            <input type="submit" value="Transfer">
+        </form>
+    </div>
+    <div class="tabcontent" id="Request">
+        <form>
+            <label for="from_account">Request From Account</label>
+            <input type="text" id="from_account" name="from_account" placeholder="Enter Account Number to Request From">
+
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" name="amount" placeholder="Enter Amount to Transfer">
+
+            <label for="reason">Reason</label>
+            <input type="textspace" id="reason" name="reason" placeholder="Enter reason here">
+
+            <input type="submit" value="Transfer">
+        </form>
+    </div>
+    <div class="point-system">
+        <h2>Point System</h2>
+        <p><strong>10 points = Rs.2 discount</strong></p>
+        <p><strong>20 points = Rs.3 discount</strong></p>
+        <p><strong>50 points = Rs.5 discount</strong></p>
+    </div>
+</body>
+</html>
