@@ -1,0 +1,18 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "y",
+  "scripts": {
+    "test": "y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "author": "TeamHub",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
